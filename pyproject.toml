@@ -1,0 +1,11 @@
+[project]
+name = "ai-agent-elian"
+version = "0.1.0"
+description = "Checkpointed autonomous-agent runtime"
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+browser = ["playwright>=1.50"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
